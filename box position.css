@@ -1,0 +1,83 @@
+.box{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+}
+.box1{
+    text-align: center;
+    text-decoration: underline;
+}
+.box2{
+    color: rgb(167, 21, 21);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+#box3{
+    background-color: white;
+      width: 50px;
+      height: 30px;
+      margin: 80px;
+      margin-right: 20%;
+      color: red;
+      border-radius: 20px;
+      border: 5px solid;
+      padding: 50px 50px 50px 50px;
+      box-sizing: 30px;
+      display: block;
+}
+.box4{
+     background-color: white;
+      width: 50px;
+      height: 30px;
+      margin: 80px;
+      color: red;
+      border-radius: 20px;
+      border: 5px solid;
+      padding: 50px 50px 50px 50px;
+      box-sizing: 30px;
+      display: inline-block;
+}
+#box5{
+    background-color: aliceblue;
+    background-image: url(./asserts.jpg);
+    background-size: cover:
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 800px;
+}
+span{
+    display: block;
+
+}
+.box6{
+      display: none;
+}
+.container{
+    display: block;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 10px;
+}
+.item{
+    background: red;
+    padding: 20px;
+    color: black;
+}
+.bag{
+    display: grid;
+    grid-template-columns:repeat(3,2fr);
+    gap:10px;
+}
+.partition{
+    background: plum ;
+    padding:20px
+}

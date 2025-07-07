@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#body{
+    background-color: skyblue;
+    }
+        #aa{
+            background-color: black ;
+            color: aliceblue;
+        }
+        #bb{
+            text-align: end;
+            padding-bottom: 15px;
+            padding-right: 15px;
+            border-radius: 15px;
+            padding: 10px;
+            color: #fff;
+            font-size: 16px;
+            transform: 0.3s ease;
+            cursor: pointer;
+        }
+    #cc{
+        text-align: center;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        }
+    #c1{
+        text-align: center;
+        margin-left: 10%;
+    }
+    #c2{
+        margin-top: 20px;
+        margin-right: 40px ;
+    }
+    #cc h2{
+        
+        font-weight: 500;
+    }
+    #dd{
+        text-align: center;
+        margin-top: 10%;
+    }
+    #dd h2{
+        font-weight: 400;
+    }
+    .ee{
+        color:aliceblue;
+        width: 300px;
+        height: 50px;
+        background-color: gray;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        box-sizing: content-box;
+        display: inline-block;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    #ff{
+        text-align:center ;
+    }
+    .f1{
+        color:aliceblue;
+        width: 200px;
+        height: 400px;
+        background-color: rgb(182, 180, 180);
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        box-sizing: content-box;
+        display: inline-block;
+        gap: 40px;
+        justify-content: space-between;
+        
+    }
+    #hh{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        gap: 5px;
+    }
+    #gg{
+        text-align: center;
+        margin-left: 500px;
+        padding: 35px;
+        padding-top: 10px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 350px;
+        background-color: #24323d;
+        padding: 20px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 70px;
+    }
+    .title{
+        font-size: 28px;
+        color: rgb(32, 164, 144);
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        position:relative;
+        text-align: center;
+    }
+.message,.signin{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.signin{
+    color:rgb(32, 164, 144);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.signin a:hover {
+    color:rgb(12, 114, 231);
+}
+.form-group{
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+.form label{
+    position: relative;
+}
+.form label input{
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+    outline:auto rgb(32, 164, 144);
+    border: none;
+    border-radius: 10px;
+    
+}
+.form label input+span{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #24323d;
+    font-size: 0.9em;
+    cursor:text;
+    transition: 0.3s ease;
+}
+.form label input:placeholder-shown+span{
+    top: 15px;
+    font-size: 0.9em;
+}
+.form label input:focus+span,
+.form label input:valid+span{
+    top: 25px;
+    font-size: 7px;
+    font-weight: 600;
+}
+.form label input:valid+span{
+    color: rgb(32, 164, 144);
+}
+.form label.icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #24323d;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+.submit{
+    border: none;
+    background: rgb(32, 164, 144);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: 0.3s ease;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: aquamarine;
+    transition: 0.3s;
+}
